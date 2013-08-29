@@ -1,0 +1,24 @@
+image hosting:
+  rackspace, edgecast, amazon s3, akamai, amazon CloudFront, MaxCDN, CacheFly
+
+cdnjs
+
+1. sell dressies.
+
+bare minimum:
+1. upload photos of dressies.
+2. buy dressies; ecommerce
+3. user signup: usernames
+4. dress info tags; style, size, condition
+5. set of guidelines, photo tips, condition rating guidelines.
+6. legal; payments etc.
+
+Technical
+1. domain name
+2. app hosting
+3. image hosting
+4. notifications; email?
+5. image slideshow plugin
+6. ecommerce plugin
+7. analytics (Google) and metrics
+8. User feedback, bugs, billing issues
