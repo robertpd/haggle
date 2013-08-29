@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
+
 
 gem 'rails', '3.2.12'
-gem 'sqlite3'
 gem 'bootstrap-sass', '2.1'
 
 # Gems used only for assets and not required in production environments by default.
@@ -16,11 +17,13 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 group :test, :development do
+  gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
 end
 
 group :production do
   gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 gem 'jquery-rails'
 
